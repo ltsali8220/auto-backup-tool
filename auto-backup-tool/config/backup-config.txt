@@ -1,0 +1,25 @@
+# Backup Configuration File
+
+# Source directory for backup
+source_directory=C:\path\to\source
+
+# Destination directory for backup
+destination_directory=D:\path\to\backup
+
+# Backup schedule (daily, weekly, monthly)
+backup_schedule=daily
+
+# Retention time for backups in days
+retention_time=30
+
+# Log retention time in days
+log_retention_time=7
+
+# Time of day to run the backup (24-hour format, e.g., 14:00 for 2 PM)
+backup_time=02:00
+
+# Email notifications (true or false)
+email_notifications=false
+
+# Email address for notifications (if enabled)
+notification_email=your_email@example.com
